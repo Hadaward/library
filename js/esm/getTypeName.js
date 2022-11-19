@@ -1,7 +1,7 @@
 const { toString } = String;
 const { isArray } = Array;
 
-export function getValueType(value) {
+export function getTypeName(value) {
     const type = typeof value;
 
     if (type === "object") {

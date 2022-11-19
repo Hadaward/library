@@ -2,7 +2,7 @@ const { toString } = String;
 const { isArray } = Array;
 
 module.exports = {
-    getValueType(value) {
+    getTypeName(value) {
         const type = typeof value;
 
         if (type === "object") {
